@@ -32,6 +32,8 @@
 - Code Smells
 - Bugs
 - Maintainability issues
+  
+![First scan](1.png)
 
 Основні зауваження:
 - використання `rand()` замість `<random>`;
@@ -48,6 +50,7 @@
 - **Bugs (потенційні)** – ризики витоків пам’яті через `new/delete`
 - **Security Hotspots / Vulnerabilities** – не виявлено критичних проблем
 
+![Issues](2.png)
 ---
 
 ## Виправлення коду
@@ -141,6 +144,7 @@ void printArray(const vector<char>& arr)
 * покращилась maintainability оцінка
 * код став більш безпечним і сучасним
 
+![Second scan](3.png)
 ---
 
 ## Фінальна версія коду
